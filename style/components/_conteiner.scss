@@ -2,15 +2,16 @@
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	margin-top: 5px;
 
 	.main {
-		width: 210%;
+		flex-basis: 210%;
 		border: solid 2px black;
 	}
 
 	.aside {
-		width: 28%;
+		flex-grow: 1;
 		border: solid 2px blue;
 	}
 }

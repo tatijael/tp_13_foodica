@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Kalam:300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Francois+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Francois+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+.conteiner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+.conteiner .main {
+  flex-basis: 210%;
+  border: solid 2px black;
+}
+.conteiner .aside {
+  flex-grow: 1;
+  border: solid 2px blue;
+}
+
+body {
+  margin: 0 90px;
+}
+
+header {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header__tittle {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 60px;
+  font-weight: 400;
+}
+
+.header__description {
+  font-family: "Francois One", sans-serif;
+  text-transform: uppercase;
+  color: #cfc9c9;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px #cfc9c9 solid;
+  border-bottom: 1px #cfc9c9 solid;
+  align-items: center;
+  margin-top: 13px;
+  padding: 15px 0;
+}
+.nav__list .nav__items {
+  display: flex;
+  margin-left: 200px;
+  font-family: "Francois One", sans-serif;
+}
+.nav__list .nav__items .items {
+  list-style: none;
+  margin-right: 25px;
+}
+.nav__list .nav__items .items .nav__links {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav__list .nav__items .items .nav__links:visited {
+  color: black;
+}
+.nav__list .nav__icon {
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+/*# sourceMappingURL=style.scss.map */
