@@ -1,17 +1,1 @@
-.conteiner {
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	margin-top: 5px;
 
-	.main {
-		flex-basis: 210%;
-		border: solid 2px black;
-	}
-
-	.aside {
-		flex-grow: 1;
-		border: solid 2px blue;
-	}
-}

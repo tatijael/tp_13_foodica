@@ -1,18 +1,1 @@
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Francois+One&display=swap');
 
-header {
-	margin: 0 auto;
-	text-align: center;
-}
-.header__tittle {
-	font-family: 'Shadows Into Light', cursive;
-	font-size: $tamano;
-	font-weight: $font-weight-ligth;
-}
-
-.header__description {
-	font-family: 'Francois One', sans-serif;
-	text-transform: uppercase;
-	color: $color-grey;
-}
