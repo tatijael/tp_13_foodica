@@ -47,7 +47,7 @@
 }
 .btn--instagram {
   position: absolute;
-  left: 42%;
+  left: 44%;
   margin-top: 7.5%;
   color: black;
   border: none;
@@ -403,8 +403,8 @@ aside .instagram .instagram__img img {
 }
 .foot--img {
   position: relative;
-  width: 249px;
-  height: 249px;
+  width: 260px;
+  height: 250px;
 }
 
 .bgd {
