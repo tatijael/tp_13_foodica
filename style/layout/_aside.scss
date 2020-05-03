@@ -1,0 +1,184 @@
+aside {
+    
+
+    @media screen and (min-width: 480px) {
+        flex-basis: 30%;
+    }
+
+    .social__tittle {
+        text-transform: uppercase;
+        font-weight: 600;
+        color: $color-dark-grey;
+    }
+    img {
+        max-width: 100%;
+    }
+
+    hr {
+        width: 6rem;
+        color: lightgray;
+        margin: 2.5rem auto;
+    }
+
+    .aboutme {
+        text-align: center;
+        margin: 1rem .5rem 2rem;
+
+
+        img {
+            margin: 1.5rem;
+            width: 40%;
+            border-radius: 50%;
+        }
+        .about__name {
+            color: $color-dark-grey;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+        .about__description {
+            margin: 1rem;
+        }
+    }
+    .social {
+        text-align: center;
+
+        .social__description {
+            margin: 2rem 0 1rem;
+        }
+        
+        i {
+            color: $color-white;
+            padding: .5rem;
+            border-radius: 50%;
+        }
+        .fa-facebook-f {
+            background-color: rgb(59, 89, 152);
+            padding: .5rem .7rem;
+        }
+        .fa-twitter {
+            background-color: rgb(85, 172, 238);
+        }
+        .fa-instagram {
+            background-color: rgb(228, 64, 95);
+        }
+        .fa-pinterest {
+            background-color: rgb(201, 38, 25);
+        }
+        
+        .fa-etsy {
+            background-color: rgb(235, 109, 32);
+            padding: .5rem .7rem;
+        }
+        .fa-youtube {
+            background-color: rgb(224, 42, 32);
+        }
+        .fa-envelope {
+            background-color: rgb(37, 132, 183);
+        }
+    
+    }
+    .form {
+        text-align: center;
+        background-color: rgb(224, 238, 247);
+        padding: 3rem 1.5rem 2rem;
+        margin: 2rem 0;
+       
+
+        .form__description {
+            margin: 1rem ;
+            font-size: .9rem;
+            color: rgb(105, 103, 103);
+        }
+
+        form {
+            input {
+                display: block;
+                width: 90%;
+                margin: 1rem auto;
+                padding: .7rem .5rem;
+                color: rgb(38, 39, 43);
+                font-weight: 600;
+                border-radius: 2px;
+                border: 1px solid rgb(158, 177, 189);
+            }
+        }
+    }
+    .instagram {
+        text-align: center;
+        margin: 1rem .5rem;
+
+        .details {
+            display: flex;
+            align-items: flex-start;
+            margin: 2rem 0;
+
+            .detail__img {
+                width: 30%;
+
+                img {
+                    width: 80%;
+                    border-radius: 50%;
+                }
+            }
+            .detail__text {
+                width: 70%;
+
+                .detail__text-up {
+                    display: flex;
+                    align-items: flex-start;
+                    margin-bottom: .8rem;
+
+                    .insta__title {
+                        color: $color-dark-grey;  
+                        font-weight: 600;
+                        text-align: left;
+                        span{
+                            color: grey;
+                            font-size: .9rem;
+                        }
+                    }
+
+                }
+                .detail__text-down {
+                    display: flex;
+                    justify-content: space-between;
+                    text-align: center;
+                    p {
+                        font-size: .9rem;
+                        font-weight: 600;
+                        color: $color-dark-grey;
+
+                        span {
+                            display: block;
+                            color: rgb(136, 135, 135);
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+        .insta__text {
+            text-align: left;
+            margin: 0 1rem 1.5rem;
+            font-size: .9rem;
+            color: grey;
+        }
+        .instagram__img{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            img {
+                width: 6rem;
+                height: 7rem;
+                margin: .2rem;
+                flex-grow: 1;
+            }
+        }
+
+    }
+
+    
+
+}
+
