@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Kalam:300,400,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Francois+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -33,6 +34,75 @@
   text-transform: none;
   color: #3897f0;
   font-weight: 600;
+}
+.btn--border {
+  border: 1 px solid #c2c2c2;
+  background-color: #fff;
+  font-family: "roboto condensed";
+  font-weight: 700;
+  color: #363940;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+@media screen and (min-width: 480px) {
+  .card {
+    width: 45%;
+  }
+}
+@media screen and (min-width: 480px) {
+  .card--mod {
+    width: 100%;
+  }
+}
+.card .card__image {
+  width: 90%;
+  height: 20rem;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.card .card__image--mod {
+  width: 100%;
+}
+.card .card__subtitle {
+  font-family: "roboto condensed";
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+  color: #c2c2c2;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+.card .card__title {
+  color: #363940;
+  font-weight: 400;
+  margin: 1rem;
+  text-align: center;
+}
+.card .card__title--mod {
+  font-size: 2rem;
+}
+.card .card__date {
+  color: #c2c2c2;
+}
+.card .card__date--mod {
+  color: #363940;
+}
+.card .card__date--large {
+  font-size: 1.2rem;
+}
+.card .card__description {
+  margin: 1rem 0 2rem 0;
+  color: #424242;
+  line-height: 2rem;
 }
 
 body {
@@ -241,6 +311,22 @@ aside .instagram .instagram__img img {
   height: 7rem;
   margin: 0.2rem;
   flex-grow: 1;
+}
+
+.article {
+  width: 100%;
+}
+@media screen and (min-width: 480px) {
+  .article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.article .article__title {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: #363940;
 }
 
 /*# sourceMappingURL=style.css.map */
