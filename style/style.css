@@ -45,6 +45,29 @@
   letter-spacing: 0.1rem;
   padding: 1rem 2rem 1rem 2rem;
 }
+.btn--instagram {
+  position: absolute;
+  left: 42%;
+  margin-top: 7.5%;
+  color: black;
+  border: none;
+  font-weight: 400;
+  border-radius: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 1.5em;
+  padding: 8px 18px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: #fff;
+  display: inline-block;
+}
+@media screen and (max-width: 480px) {
+  .btn--instagram {
+    margin-top: 25%;
+    left: 30%;
+  }
+}
 
 .card {
   width: 100%;
@@ -369,4 +392,38 @@ aside .instagram .instagram__img img {
   color: #363940;
 }
 
+.footer {
+  display: flex;
+  object-fit: line;
+  overflow: hidden;
+}
+.footer foteer--img {
+  display: flex;
+  overflow: hidden;
+}
+.foot--img {
+  position: relative;
+  width: 249px;
+  height: 249px;
+}
+
+.bgd {
+  background-color: rgb(204, 204, 204);
+  padding: 40px 0;
+  text-align: center;
+  word-spacing: 20px;
+}
+
+.stylenav {
+  font-family: "Roboto Condensed", sans-serif;
+  color: gray;
+  text-decoration: none;
+}
+
+.copy {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Roboto Condensed", sans-serif;
+}
 /*# sourceMappingURL=style.css.map */
