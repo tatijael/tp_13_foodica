@@ -1,0 +1,17 @@
+.article{
+    width:100%;
+
+     @media screen and (min-width: 480px){
+     
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .article__title{
+        text-transform: uppercase;
+        margin-bottom: 2rem;
+        color:$color-dark-grey;
+    }
+
+}
