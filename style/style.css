@@ -70,7 +70,9 @@
   bottom: 16rem;
   font-weight: 780;
   letter-spacing: 1px;
-  margin: 0;
+  margin: auto;
+  display: block;
+  top: -170px;
 }
 
 .card {
@@ -99,6 +101,11 @@
 }
 .card .card__image--mod {
   width: 100%;
+}
+@media screen and (min-width: 480px) {
+  .card .card__image--mod {
+    height: auto;
+  }
 }
 .card .card__subtitle {
   font-family: "roboto condensed";
@@ -133,13 +140,16 @@
 }
 
 .widget__column {
+  display: flex;
+  flex-direction: column;
   padding: 13%;
   text-align: center;
-  width: 70%;
+  width: 100%;
 }
 @media screen and (min-width: 480px) {
   .widget__column {
     display: flex;
+    flex-direction: row;
     padding: 10%;
     width: 80%;
   }
@@ -148,6 +158,11 @@
   width: 100%;
   outline: 1px solid rgba(255, 255, 255, 0.863);
   outline-offset: -14px;
+  height: 250px;
+  object-fit: cover;
+}
+.widget__column .widget__img:hover {
+  outline: 1px solid rgba(255, 255, 255, 0.3);
 }
 @media screen and (min-width: 480px) {
   .widget__column .widget__img {
