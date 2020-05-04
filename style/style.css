@@ -62,8 +62,6 @@
   background: #fff;
   display: inline-block;
 }
-<<<<<<< HEAD
-=======
 .btn--white {
   border: none;
   background-color: #fff;
@@ -73,7 +71,6 @@
   letter-spacing: 1px;
   margin: 0;
 }
->>>>>>> e5a2a0a9b1f33655574dba165f38a36ce221355e
 
 .card {
   width: 100%;
@@ -101,6 +98,11 @@
 }
 .card .card__image--mod {
   width: 100%;
+}
+@media screen and (min-width: 480px) {
+  .card .card__image--mod {
+    height: auto;
+  }
 }
 .card .card__subtitle {
   font-family: "roboto condensed";
@@ -454,7 +456,6 @@ aside .instagram .instagram__img img {
   color: #363940;
 }
 
-<<<<<<< HEAD
 article {
   line-height: 1.8;
 }
@@ -553,6 +554,4 @@ article .date--black {
   color: #363940;
 }
 
-=======
->>>>>>> e5a2a0a9b1f33655574dba165f38a36ce221355e
 /*# sourceMappingURL=style.css.map */
