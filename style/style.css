@@ -62,6 +62,18 @@
   background: #fff;
   display: inline-block;
 }
+<<<<<<< HEAD
+=======
+.btn--white {
+  border: none;
+  background-color: #fff;
+  position: relative;
+  bottom: 16rem;
+  font-weight: 780;
+  letter-spacing: 1px;
+  margin: 0;
+}
+>>>>>>> e5a2a0a9b1f33655574dba165f38a36ce221355e
 
 .card {
   width: 100%;
@@ -120,6 +132,66 @@
   margin: 1rem 0 2rem 0;
   color: #424242;
   line-height: 2rem;
+}
+
+.widget__column {
+  padding: 13%;
+  text-align: center;
+  width: 70%;
+}
+@media screen and (min-width: 480px) {
+  .widget__column {
+    display: flex;
+    padding: 10%;
+    width: 80%;
+  }
+}
+.widget__column .widget__img {
+  width: 100%;
+  outline: 1px solid rgba(255, 255, 255, 0.863);
+  outline-offset: -14px;
+}
+@media screen and (min-width: 480px) {
+  .widget__column .widget__img {
+    width: 90%;
+  }
+}
+
+.footer {
+  display: flex;
+  object-fit: line;
+  overflow: hidden;
+}
+
+.footer foteer--img {
+  display: flex;
+  overflow: hidden;
+}
+
+.foot--img {
+  position: relative;
+  width: 249px;
+  height: 249px;
+}
+
+.bgd {
+  background-color: #cccccc;
+  padding: 40px 0;
+  text-align: center;
+  word-spacing: 20px;
+}
+
+.stylenav {
+  font-family: "Roboto Condensed", sans-serif;
+  color: gray;
+  text-decoration: none;
+}
+
+.copy {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 body {
@@ -382,6 +454,7 @@ aside .instagram .instagram__img img {
   color: #363940;
 }
 
+<<<<<<< HEAD
 article {
   line-height: 1.8;
 }
@@ -480,4 +553,6 @@ article .date--black {
   color: #363940;
 }
 
+=======
+>>>>>>> e5a2a0a9b1f33655574dba165f38a36ce221355e
 /*# sourceMappingURL=style.css.map */
