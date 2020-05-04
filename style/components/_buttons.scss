@@ -3,6 +3,7 @@
   padding: 0.5rem 1rem;
   text-transform: uppercase;
   border-radius: 2px;
+  cursor: pointer;
 
   &--black {
     background-color: $color-dark-grey;
@@ -64,6 +65,8 @@
     bottom: 16rem;
     font-weight: 780;
     letter-spacing: 1px;
-    margin: 0;
+    margin: auto;
+    display: block;
+    top: -170px;
   }
 }
