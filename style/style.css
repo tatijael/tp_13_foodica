@@ -158,7 +158,7 @@ body {
 }
 
 .carrousel {
-  width: 100%;
+  width: 130%;
 }
 .carrousel .section__tittle {
   text-transform: uppercase;
@@ -170,24 +170,19 @@ body {
 .carrousel .carrousel__dessert {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-.carrousel .carrousel__dessert--ensaladas {
-  justify-content: start;
+  justify-content: space-between;
+  align-content: center;
+  margin: 0 auto;
 }
 .carrousel .carrousel__dessert .dessert__item {
-  margin: 14px;
-  width: 40%;
+  width: 50%;
+  margin: 0 auto;
 }
-.carrousel .carrousel__dessert .dessert__item .img__item {
-  width: 100%;
+.carrousel .carrousel__dessert .img__item {
+  width: 80%;
+  border: royalblue solid 2px;
 }
-.carrousel .carrousel__dessert .dessert__item .img__item .img__dessert {
-  width: 100%;
-  height: 7rem;
-  flex-grow: 1;
-}
-.carrousel .carrousel__dessert .dessert__item .img__item .img__ensalada {
+.carrousel .carrousel__dessert .img__item .img__dessert {
   width: 100%;
 }
 .carrousel .date {
