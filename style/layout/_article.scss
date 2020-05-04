@@ -13,5 +13,128 @@
         margin-bottom: 2rem;
         color:$color-dark-grey;
     }
+    
+}
 
+article{
+    line-height: 1.8;
+
+    .recipe{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem;
+
+        &__img{
+            width: 100%;
+        }
+
+        &__tittle{
+            font-size: 2rem;
+            font-weight: 400;
+            display: flex;
+            justify-content: center;
+            margin: 20px 0 15px;
+        }
+
+        &__ingredients{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            background-color: $color-bg-ingredients;
+            margin: 1rem;
+            padding: 1.5rem;
+                
+        &__tittle{
+            font-size: 1.8rem;
+            font-weight: 700;
+            align-items: center;margin-bottom: 20px;
+            }
+        }
+
+        &__description{
+            margin-top: 30px;
+        }
+
+        &__description2{
+            margin: 1rem;
+        }
+
+        &__option{
+            margin-bottom: 15px;
+            margin-top: 15px;
+            border-bottom: 1px solid $color-font-border;
+
+            label{ 
+                font-size: large;       
+                padding-left: 1rem;
+            }
+
+            input{
+                width: 18px;
+                height: 18px;
+                margin: 0 0 13px;   
+            }
+        
+            input[type=radio]:checked+label {
+                text-decoration: line-through;
+            }
+        }
+
+        &__link{
+            color: $color-link;
+            text-decoration: none;
+
+            &::active{
+                color: $color-link;} 
+        }
+
+        &__directions{
+            padding: 1rem;
+
+            .direction__list{
+                list-style: none;
+                counter-reset: number;
+            }
+
+            .direction__list__item{
+                counter-increment: number;
+                display: inline-block;
+                position: relative;
+                padding-left: 2rem;
+                margin: 1rem;
+
+                &::before{
+                    content:  counter(number);
+                    display: block;
+                    font-weight: 600;
+                    font-size: 1.2rem;
+                    position: absolute;
+                    top: 0;
+                    left: -5px;
+                }
+            }
+        }
+
+    }
+
+    .date{
+        font-size: 20px;
+        font-weight: 200;;
+        text-align: center;
+        color: $color-light-grey;
+
+        &--black{
+            font-size: 17px;
+            color: $color-dark-grey;
+        }
+        
+    }
+
+
+    // @media screen {max-width: 1440px;
+    //     display: block;
+    // }
+   
 }
