@@ -16,6 +16,10 @@
     
 }
 
+.main{
+    margin-right: 50px;
+}
+
 article{
     line-height: 1.8;
 
@@ -62,6 +66,7 @@ article{
         }
 
         &__option{
+            width: 100%;
             margin-bottom: 15px;
             margin-top: 15px;
             border-bottom: 1px solid $color-font-border;
@@ -133,7 +138,7 @@ article{
     }
 
 
-    // @media screen {max-width: 1440px;
+    // @media screen and {min-width: 480px){
     //     display: block;
     // }
    

@@ -1,0 +1,36 @@
+.tags {
+
+    hr {
+        width: 6rem;
+        color: lightgray;
+        margin: 2.5rem auto;
+    }
+
+    .tags__container {
+        text-align: center;
+
+        h3 {
+            margin: 1rem 1rem 2rem;
+        }
+
+        nav {
+
+            a {
+                text-decoration: none;
+                display: inline-block;
+                margin: 0 1.5rem;
+                font-weight: 600;
+                color: $color-dark-grey;
+                border-bottom: 3px solid yellow;
+                padding: .5rem;
+
+                &:hover {
+                    background-color:  yellow;
+                }
+
+            }
+
+            
+        }
+    }
+}
