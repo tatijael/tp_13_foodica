@@ -34,6 +34,38 @@
   color: #3897f0;
   font-weight: 600;
 }
+.btn--white {
+  border: none;
+  background-color: #fff;
+  position: relative;
+  bottom: 16rem;
+  font-weight: 780;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.widget__column {
+  padding: 13%;
+  text-align: center;
+  width: 70%;
+}
+@media screen and (min-width: 480px) {
+  .widget__column {
+    display: flex;
+    padding: 10%;
+    width: 80%;
+  }
+}
+.widget__column .widget__img {
+  width: 100%;
+  outline: 1px solid rgba(255, 255, 255, 0.863);
+  outline-offset: -14px;
+}
+@media screen and (min-width: 480px) {
+  .widget__column .widget__img {
+    width: 90%;
+  }
+}
 
 body {
   margin: 0 auto;
