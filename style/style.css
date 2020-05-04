@@ -219,6 +219,51 @@
 .tags .tags__container nav a:hover {
   background-color: yellow;
 }
+.tags .tags__social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 14rem;
+  width: 100%;
+  padding: 1rem;
+}
+@media screen and (min-width: 480px) {
+  .tags .tags__social {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.tags .tags__social .icon {
+  margin-right: 0.3rem;
+}
+.tags .tags__social .tags__link {
+  width: 12rem;
+  padding: 0.5rem;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1rem;
+  border-radius: 0.2rem;
+}
+@media screen and (min-width: 480px) {
+  .tags .tags__social .tags__link {
+    width: 5rem;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+  }
+}
+.tags .tags__social .tags__twitter {
+  background-color: #55acee;
+}
+.tags .tags__social .tags__facebook {
+  background-color: #3b5998;
+}
+.tags .tags__social .tags__pinterest {
+  background-color: #c92619;
+}
+.tags .tags__social .tags__print {
+  background-color: #a3cd5b;
+}
 
 body {
   margin: 0 auto;
@@ -480,13 +525,10 @@ aside .instagram .instagram__img img {
   color: #363940;
 }
 
-<<<<<<< HEAD
-=======
 .main {
   margin-right: 50px;
 }
 
->>>>>>> 1dc24f0d2ccf6fa91329db7d3f8026e03ff6f8dd
 article {
   line-height: 1.8;
 }

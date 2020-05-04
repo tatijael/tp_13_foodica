@@ -33,4 +33,54 @@
             
         }
     }
+
+    .tags__social{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        height:14rem;
+        width:100%;
+        padding:1rem;
+
+        @media screen and (min-width: 480px){
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .icon{
+            margin-right:0.3rem;
+        }
+
+        .tags__link{
+            width:12rem;
+            padding:0.5rem;
+            display:inline-block;
+            color:$color-white;
+            text-align: center;
+            margin-bottom: 1rem;
+            border-radius: 0.2rem;
+
+             @media screen and (min-width: 480px){
+                 width:5rem;
+                 margin-right:1rem;
+                 padding:0.5rem 1rem;
+             }
+        }
+
+        .tags__twitter{
+            background-color: rgb(85, 172, 238);
+        }
+
+        .tags__facebook{
+            background-color: rgb(59, 89, 152);
+        }
+
+        .tags__pinterest{
+            background-color: rgb(201, 38, 25)
+        }
+
+        .tags__print{
+            background-color: hsl(82, 53%, 58%);
+        }
+    }
 }
