@@ -56,4 +56,14 @@
     background: #fff;
     display: inline-block;
   }
+
+  &--white {
+    border: none;
+    background-color: $color-white;
+    position: relative;
+    bottom: 16rem;
+    font-weight: 780;
+    letter-spacing: 1px;
+    margin: 0;
+  }
 }

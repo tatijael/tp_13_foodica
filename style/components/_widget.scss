@@ -1,0 +1,21 @@
+.widget__column {
+  padding: 13%;
+  text-align: center;
+  width: 70%;
+
+  @media screen and (min-width: 480px) {
+    display: flex;
+    padding: 10%;
+    width: 80%;
+  }
+
+  .widget__img {
+    width: 100%;
+    outline: 1px solid rgba(255, 255, 255, 0.863);
+    outline-offset: -14px;
+
+    @media screen and (min-width: 480px) {
+      width: 90%;
+    }
+  }
+}
