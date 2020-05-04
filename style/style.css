@@ -191,6 +191,30 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.tags hr {
+  width: 6rem;
+  color: lightgray;
+  margin: 2.5rem auto;
+}
+.tags .tags__container {
+  text-align: center;
+}
+.tags .tags__container h3 {
+  margin: 1rem 1rem 2rem;
+}
+.tags .tags__container nav a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 1.5rem;
+  font-weight: 600;
+  color: #363940;
+  border-bottom: 3px solid yellow;
+  padding: 0.5rem;
+}
+.tags .tags__container nav a:hover {
+  background-color: yellow;
+}
+
 body {
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
