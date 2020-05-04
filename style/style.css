@@ -12,6 +12,7 @@
   padding: 0.5rem 1rem;
   text-transform: uppercase;
   border-radius: 2px;
+  cursor: pointer;
 }
 .btn--black {
   background-color: #363940;
@@ -208,8 +209,18 @@
   margin: 0 1.5rem;
   font-weight: 600;
   color: #363940;
-  border-bottom: 3px solid yellow;
-  padding: 0.5rem;
+  padding: 0.3rem 0.5rem 0;
+  position: relative;
+}
+.tags .tags__container nav a:before {
+  content: "";
+  height: 7px;
+  position: absolute;
+  background-color: yellow;
+  bottom: 0;
+  z-index: -10;
+  left: 0;
+  width: 100%;
 }
 .tags .tags__container nav a:hover {
   background-color: yellow;
@@ -395,12 +406,11 @@ aside .form form input {
 }
 aside .instagram {
   text-align: center;
-  margin: 1rem 0.5rem;
 }
 aside .instagram .details {
   display: flex;
   align-items: flex-start;
-  margin: 2rem 0;
+  margin: 2rem 0.5rem;
 }
 aside .instagram .details .detail__img {
   width: 30%;

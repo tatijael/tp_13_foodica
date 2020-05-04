@@ -21,9 +21,20 @@
                 margin: 0 1.5rem;
                 font-weight: 600;
                 color: $color-dark-grey;
-                border-bottom: 3px solid yellow;
-                padding: .5rem;
+                padding: .3rem .5rem 0;
+                position: relative;
+              
 
+                &:before {
+                    content: "";
+                    height: 7px;
+                    position: absolute;
+                    background-color: yellow;
+                    bottom: 0;
+                    z-index: -10;
+                    left: 0;
+                    width: 100%;
+                }
                 &:hover {
                     background-color:  yellow;
                 }
