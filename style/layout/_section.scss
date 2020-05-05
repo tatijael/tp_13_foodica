@@ -1,11 +1,18 @@
 .carrousel {
-	width: 130%;
+	width: 100%;
+	margin: 0 30px;
+	border-top: solid 1px $color-grey;
+
+	&--ensalada {
+		margin: 0 auto;
+	}
+
 	.section__tittle {
 		text-transform: uppercase;
 		color: $color-dark-grey;
-		font-size: 13px;
+		font-size: 15px;
 		font-family: 'Roboto', sans-serif;
-		border-top: 1px $color-grey solid;
+		margin: 15px auto;
 	}
 
 	.carrousel__dessert {
@@ -22,19 +29,25 @@
 
 		.img__item {
 			width: 80%;
-			border: royalblue solid 2px;
 
 			.img__dessert {
 				width: 100%;
 			}
+			.img__ensalada {
+				width: 100%;
+			}
 		}
 	}
-
 	.date {
 		color: $color-grey;
+		margin: 5px;
 
 		&--grey {
 			font-size: 12px;
 		}
+	}
+
+	.carrousel__tittle {
+		margin-bottom: 10px;
 	}
 }

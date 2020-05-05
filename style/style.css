@@ -158,14 +158,19 @@ body {
 }
 
 .carrousel {
-  width: 130%;
+  width: 100%;
+  margin: 0 30px;
+  border-top: solid 1px #cfc9c9;
+}
+.carrousel--ensalada {
+  margin: 0 auto;
 }
 .carrousel .section__tittle {
   text-transform: uppercase;
   color: #363940;
-  font-size: 13px;
+  font-size: 15px;
   font-family: "Roboto", sans-serif;
-  border-top: 1px #cfc9c9 solid;
+  margin: 15px auto;
 }
 .carrousel .carrousel__dessert {
   display: flex;
@@ -180,16 +185,22 @@ body {
 }
 .carrousel .carrousel__dessert .img__item {
   width: 80%;
-  border: royalblue solid 2px;
 }
 .carrousel .carrousel__dessert .img__item .img__dessert {
   width: 100%;
 }
+.carrousel .carrousel__dessert .img__item .img__ensalada {
+  width: 100%;
+}
 .carrousel .date {
   color: #cfc9c9;
+  margin: 5px;
 }
 .carrousel .date--grey {
   font-size: 12px;
+}
+.carrousel .carrousel__tittle {
+  margin-bottom: 10px;
 }
 
 @media screen and (min-width: 480px) {
