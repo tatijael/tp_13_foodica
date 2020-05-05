@@ -22,6 +22,10 @@
 		align-content: center;
 		margin: 0 auto;
 
+		@media screen and (min-width: 480px) {
+			flex-wrap: nowrap;
+		}
+
 		.dessert__item {
 			width: 50%;
 			margin: 0 auto;
@@ -49,5 +53,18 @@
 
 	.carrousel__tittle {
 		margin-bottom: 10px;
+	}
+
+	.btncarrousel {
+		@media screen and (min-width: 480px) {
+			display: flex;
+			justify-content: center;
+		}
+	}
+
+	.btn {
+		@media screen and (min-width: 480px) {
+			padding: 1rem 5rem;
+		}
 	}
 }
